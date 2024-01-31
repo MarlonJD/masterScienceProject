@@ -1,0 +1,9 @@
+Django>=4.0.0
+djangorestframework>=3.11.0
+
+# on macos urllib3 > 1.26.6
+urllib3==1.26.6
+
+# for model
+torch
+transformers

@@ -1,0 +1,20 @@
+{
+    "dart.runPubGetOnPubspecChanges": "always",
+    "files.insertFinalNewline": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+          80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off"
+  },
+  }
+  
