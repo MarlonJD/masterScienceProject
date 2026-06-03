@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
     try {
       final response = await http
-          .post(Uri.parse("http://192.168.0.124:8000/api/answerPromt"),
+          .post(Uri.parse("http://192.168.1.187:8000/api/answerPromt"),
               headers: <String, String>{
                 "Content-Type": "application/json; charset=UTF-8",
               },
